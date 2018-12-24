@@ -24,15 +24,20 @@
 
 package unitofwork;
 
-import org.junit.Test;
-
 /**
- * AppTest
+ * Act as Database for student records.
  */
-public class AppTest {
-  @Test
-  public void test() {
-    String[] args = {};
-    App.main(args);
+public class StudentDatabase {
+
+  public void insert(Student student) {
+    //Some insert logic to DB
+  }
+
+  public void modify(Student student) {
+    //Some modify logic to DB
+  }
+
+  public void delete(Student student) {
+    //Some delete logic to DB
   }
 }
